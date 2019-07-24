@@ -15,13 +15,13 @@ import (
 )
 
 var (
-	SERVER_CERT    string
-	SERVER_KEY     string
-  SERVER_PORT    string
+	SERVER_CERT string
+	SERVER_KEY  string
+	SERVER_PORT string
 )
 
 func init() {
-  SERVER_CERT = os.Getenv("SERVER_CERT")
+	SERVER_CERT = os.Getenv("SERVER_CERT")
 	SERVER_KEY = os.Getenv("SERVER_KEY")
 	SERVER_PORT = os.Getenv("SERVER_PORT")
 }
